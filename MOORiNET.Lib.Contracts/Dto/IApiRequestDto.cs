@@ -16,7 +16,7 @@ namespace MOORiNET.Lib.Contracts.Dto
         /// <summary>
         /// Тип запроса
         /// </summary>
-        HttpMethod Method { get; }
+        string Method { get; }
 
         /// <summary>
         /// Заголовки
