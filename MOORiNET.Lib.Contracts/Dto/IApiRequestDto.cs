@@ -24,6 +24,11 @@ namespace MOORiNET.Lib.Contracts.Dto
         Dictionary<string, string> Headers { get; }
 
         /// <summary>
+        /// Тело запроса
+        /// </summary>
+        object Body { get; }
+
+        /// <summary>
         /// Максимальное количество перенаправлений
         /// </summary>
         int MaxRedirects { get; }
