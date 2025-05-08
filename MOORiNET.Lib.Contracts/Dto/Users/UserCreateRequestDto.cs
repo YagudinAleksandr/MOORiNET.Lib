@@ -1,6 +1,7 @@
 ﻿using MOORiNET.Lib.Enums;
 
-namespace MOORiNET.Lib.Contracts.Dto.Users
+#nullable enable
+namespace MOORiNET.Lib.Contracts.Dto
 {
     /// <summary>
     /// Модель создания пользователя
