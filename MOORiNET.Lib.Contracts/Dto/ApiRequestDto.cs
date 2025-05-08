@@ -12,11 +12,14 @@ namespace MOORiNET.Lib.Contracts.Dto
         public abstract string Endpoint { get; }
 
         public virtual HttpMethod Method => HttpMethod.Get;
+
         public virtual Dictionary<string, string> Headers => new Dictionary<string, string>();
         
         /// <summary>
         /// Тело запроса опционально для POST/PUT
         /// </summary>
         public virtual object Body => null;
+
+        public virtual int MaxRedirects => 3;
     }
 }

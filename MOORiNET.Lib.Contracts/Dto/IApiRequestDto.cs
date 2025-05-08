@@ -22,5 +22,10 @@ namespace MOORiNET.Lib.Contracts.Dto
         /// Заголовки
         /// </summary>
         Dictionary<string, string> Headers { get; }
+
+        /// <summary>
+        /// Максимальное количество перенаправлений
+        /// </summary>
+        int MaxRedirects { get; }
     }
 }
