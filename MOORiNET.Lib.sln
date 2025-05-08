@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MOORiNET.Lib.Contracts", "MOORiNET.Lib.Contracts\MOORiNET.Lib.Contracts.csproj", "{67C01FB3-3D32-4C81-B9A9-D77826092B3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MOORiNET.Lib.Enums", "MOORiNET.Lib.Enums\MOORiNET.Lib.Enums.csproj", "{C592F683-19F1-4520-801F-7BB6B96843C8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{67C01FB3-3D32-4C81-B9A9-D77826092B3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67C01FB3-3D32-4C81-B9A9-D77826092B3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67C01FB3-3D32-4C81-B9A9-D77826092B3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67C01FB3-3D32-4C81-B9A9-D77826092B3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C592F683-19F1-4520-801F-7BB6B96843C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C592F683-19F1-4520-801F-7BB6B96843C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C592F683-19F1-4520-801F-7BB6B96843C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C592F683-19F1-4520-801F-7BB6B96843C8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A5A50346-3618-4EE9-B333-5CE2FA463272}
+	EndGlobalSection
+EndGlobal
