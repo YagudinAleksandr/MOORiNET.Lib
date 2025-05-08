@@ -22,6 +22,6 @@ namespace MOORiNET.Lib.Contracts.Dto
         /// <summary>
         /// Коллекция ошибок
         /// </summary>
-        public IReadOnlyCollection<string> Errors { get; set; }
+        public Dictionary<string, string> Errors { get; set; } = new Dictionary<string, string>();
     }
 }
